@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 12
+- text: 123
+- text: 01
+- text: Empty string
+- text: 012
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14708#comment
+status: Solved
+record: -1
+local_check: false

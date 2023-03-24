@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <code>fmt.Print()</code>
+- text: <code>fmt.Scan()</code>
+- text: <code>fmt.Println()</code>
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14529#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 17 Mar 2023 03:04:32 UTC"
+record: -1
+selected_options:
+- 1
+local_check: false

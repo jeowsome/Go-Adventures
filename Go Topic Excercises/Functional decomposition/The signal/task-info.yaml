@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: When your program has long control flow statements.
+- text: When there are repeated code blocks that perform the same task in your program.
+- text: "When your program is already readable and simple, you should try to decompose\
+    \ functions even further."
+- text: "When there is a big function that performs many tasks, it is better to decompose\
+    \ it into smaller functions that perform specific tasks."
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17508#comment
+status: Solved
+record: -1
+local_check: false

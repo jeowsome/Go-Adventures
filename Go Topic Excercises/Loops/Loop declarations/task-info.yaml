@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "<code>for i := 0; i &lt; 5; i++ {<br>\_\_\_\_...<br>}</code>"
+- text: "<code>for n &lt; 5 {<br>\_\_\_\_...<br>}</code>"
+- text: "<code>for {<br>\_\_\_\_...<br>}</code>"
+- text: "<code>for (i in 6 downTo 0 step 2) {<br>\_\_\_\_...<br>}</code>"
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23455#comment
+status: Solved
+record: -1
+local_check: false

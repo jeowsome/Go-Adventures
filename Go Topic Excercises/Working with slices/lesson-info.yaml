@@ -1,0 +1,12 @@
+content:
+- Theory
+- Using the copy function
+- Built-in functions for slices
+- Appending a slice
+- Allocating capacity for a new slice
+- Element assignment
+- Using the append function
+- Number of copied elements
+- Printing a slice
+- Make a copy
+- Iterating over a 2D slice

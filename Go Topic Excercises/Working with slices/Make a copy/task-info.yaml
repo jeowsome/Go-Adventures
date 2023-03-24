@@ -1,0 +1,22 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: "package main\n\nimport (\n    \"fmt\"\n    \"log\"\n    \"reflect\"\n)\n\n\
+    func solve(s []string) []string {\n    // Write the code to make a copy of the\
+    \ 's' slice below:\n\n    return ? // Return the copy of the slice here!\n}\n\n\
+    // DO NOT delete or modify the contents of the main function!\nfunc main() {\n\
+    \tmySlice := []string{\"\", \"\", \"\"}\n\tfmt.Scan(&mySlice[0], &mySlice[1],\
+    \ &mySlice[2])\n\n\tnewSlice := solve(mySlice)\n\tif !reflect.DeepEqual(mySlice,\
+    \ newSlice) {\n\t\tlog.Fatal(\"new slice is not an exact copy\")\n\t}\n\n\tmySlice[0],\
+    \ mySlice[1] = mySlice[1], mySlice[0]\n\tif reflect.DeepEqual(mySlice, newSlice)\
+    \ {\n\t\tlog.Fatal(\"new slice is a reference to an old slice, but should be a\
+    \ copy\")\n\t}\n\n\tfmt.Println(newSlice)\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15940#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 22 Mar 2023 15:20:22 UTC"
+record: -1
+submission_language: go

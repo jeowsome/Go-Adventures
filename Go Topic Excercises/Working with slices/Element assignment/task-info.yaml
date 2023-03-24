@@ -1,0 +1,23 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"log\"\n\t\"os\"\n\t\
+    \"reflect\"\n)\n\nfunc solve(s []string, x string, i int) []string {\n\t// Write\
+    \ the code to make a copy of the 's' slice below:\n\tslCopy := ?\n\t?(?, ?)\n\n\
+    \t// Assign x to the element at the 'i' index of the 'slCopy' slice:\n\t?[?] =\
+    \ ?\n\n\treturn ? // Return the copy of the slice here!\n}\n\n// DO NOT delete\
+    \ or modify the contents of the main function!\nfunc main() {\n\tvar i int\n\t\
+    var x string\n\n\tmySlice := make([]string, 1)\n\tscanner := bufio.NewScanner(os.Stdin)\n\
+    \tscanner.Scan()\n\tmySlice[i], x = scanner.Text(), scanner.Text()\n\n\tnewSlice\
+    \ := solve(mySlice, x, i)\n\tif !reflect.DeepEqual(mySlice, newSlice) {\n\t\t\
+    log.Fatal(\"You didn't assign 'x' to the element at the 'i' index of the slice!\"\
+    )\n\t}\n\tfmt.Println(newSlice)\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15942#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 22 Mar 2023 15:09:20 UTC"
+record: -1
+submission_language: go

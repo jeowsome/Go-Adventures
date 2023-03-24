@@ -1,0 +1,18 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: "package main\n\nimport \"fmt\"\n\n// nolint: revive // DO NOT delete this\
+    \ comment!\nfunc main() {\n\t// DO NOT delete this line! It takes the input numbers\
+    \ and generates the 3x3 matrix `A`.\n\tvar A = generateMatrix()\n\n\t// Declare\
+    \ and initialize the transposed version of the 3x3 matrix `A` below:\n\tvar transposedA\
+    \ = ?\n\n\t// Print each row of the 3x3 `transposedA` matrix below:\n\tfmt.Println(transposedA[0])\n\
+    \tfmt.Println(?)\n\tfmt.Println(?)\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24887#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 21 Mar 2023 13:47:09 UTC"
+record: -1
+submission_language: go

@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: The code becomes less readable
+- text: The program becomes harder to test and find existing bugs
+- text: The code becomes complex and it gets difficult to track its logic
+- text: The program takes longer to compile
+- text: The length of our code increases
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17507#comment
+status: Solved
+record: -1
+local_check: false

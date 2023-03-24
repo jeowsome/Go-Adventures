@@ -1,0 +1,21 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: "package main\n\nimport \"fmt\"\n\nfunc main() {\n\t// DO NOT delete this\
+    \ code block. It takes as an input the `n` value to be used in the for loop\n\t\
+    var n int\n\tfmt.Scanln(&n)\n\n    // DO NOT delete the variable declarations\
+    \ that will be used within the for loop!\n    var currentFib, previousFib = 1,\
+    \ 0\n\tvar lastDigit int\n\n    // Write the additional required code to finish\
+    \ the for loop declaration below:\n\tfor i := 0; ? < n; ?++ {\n\t\tlastDigit =\
+    \ (? + previousFib) % 10\n\t\tcurrentFib = ?\n\t\tpreviousFib = lastDigit\n\t\
+    }\n\n\tfmt.Println(lastDigit) // This line outputs the calculated `lastDigit`\n\
+    }"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23456#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 21 Mar 2023 12:32:21 UTC"
+record: -1
+submission_language: go

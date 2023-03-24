@@ -1,0 +1,20 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: |-
+    package main
+
+    import "fmt"
+
+    func main() {
+        // Write your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14534#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 17 Mar 2023 03:06:10 UTC"
+record: -1
+submission_language: go

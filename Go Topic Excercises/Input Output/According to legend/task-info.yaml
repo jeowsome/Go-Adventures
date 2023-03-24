@@ -1,0 +1,39 @@
+type: code
+custom_name: According to legend...
+files:
+- name: main.go
+  visible: true
+  text: |-
+    package main
+
+    import "fmt"
+
+    func main() {
+        var system, moons, grid string
+        var latitude, longitude float64
+        var rotation, orbital int
+
+        // Scan the input into the correct variables below:
+        fmt.Scan(&?, &?, &?)
+        fmt.Scan(&?, &?)
+        fmt.Scan(&?, &?)
+
+        // DO NOT delete the code block below!
+        fmt.Println("System:", system)
+        fmt.Println("Moons:", moons)
+        fmt.Println("Grid square:", grid)
+
+        fmt.Println("\nLatitude:", latitude)
+        fmt.Println("Longitude:", longitude)
+
+        fmt.Println("\nRotation period in days:", rotation)
+        fmt.Println("Orbital period in days:", orbital)
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23452#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 17 Mar 2023 03:03:46 UTC"
+record: -1
+submission_language: go

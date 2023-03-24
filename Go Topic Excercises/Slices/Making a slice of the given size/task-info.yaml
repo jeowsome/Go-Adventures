@@ -1,0 +1,27 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: |-
+    package main
+
+    import "fmt"
+
+    func main() {
+        // DO NOT delete or modify the code block below!
+        var y int
+        fmt.Scanln(&y)
+
+        // Make a slice of strings with the length 'y' below:
+        s := ?
+
+        fmt.Println(?) // print the 'len' of the slice here!
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15662#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 21 Mar 2023 16:11:57 UTC"
+record: -1
+submission_language: go

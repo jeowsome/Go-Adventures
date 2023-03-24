@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "<code>var sl3 make([]float64, len(sl1)+len(sl2))</code>"
+- text: "<code>var sl3 = copy(sl2, sl1)</code>"
+- text: "<code>var sl3 = append(sl1, sl2...)</code>"
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23462#comment
+status: Solved
+record: -1
+local_check: false
