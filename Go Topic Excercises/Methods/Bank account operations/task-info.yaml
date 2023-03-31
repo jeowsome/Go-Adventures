@@ -1,0 +1,29 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: "package main\n\nimport \"fmt\"\n\ntype BankAccount struct {\n\tBalance float64\n\
+    }\n\n// Create the Deposit(), Withdraw() and DisplayBalance() methods below:\n\
+    func (? ?) Deposit(amount float64) {\n    ? += ?\n    fmt.Printf(\"Deposited %.2f,\
+    \ your new balance is: %.2f\\n\", amount, b.Balance)\n}\n\nfunc (? ?) Withdraw(amount\
+    \ float64) {\n\tif ? < ? {\n\t\tfmt.Printf(\"Not enough funds in your bank account,\
+    \ funds: %.2f\\n\", ?)\n\t\treturn\n\t}\n\t? -= ?\n    fmt.Printf(\"Withdrew %.2f,\
+    \ your new balance is: %.2f\\n\", ?, ?)\n}\n\nfunc (? ?) DisplayBalance() {\n\t\
+    fmt.Printf(\"Your current balance is: %.2f\\n\\n\", b.Balance)\n}\n\n// DO NOT\
+    \ delete or modify the contents of the main() function!\nfunc main() {\n\tvar\
+    \ acc BankAccount\n\tfor {\n\t\tdisplayMenu()\n\t\tvar amount float64\n\t\tvar\
+    \ choice string\n\t\tfmt.Scanln(&choice, &amount)\n\n\t\tswitch choice {\n\t\t\
+    case \"deposit\":\n\t\t\tacc.Deposit(amount)\n\t\t\tfmt.Println()\n\t\tcase \"\
+    withdraw\":\n\t\t\tacc.Withdraw(amount)\n\t\t\tfmt.Println()\n\t\tcase \"balance\"\
+    :\n\t\t\tacc.DisplayBalance()\n\t\tcase \"exit\":\n\t\t\tfmt.Println(\"Exiting...\"\
+    )\n\t\t\treturn\n\t\t}\n\t}\n}\n\nfunc displayMenu() {\n\tfmt.Println(\"Welcome\
+    \ to the bank! Enter the operation you want to perform:\")\n\tfmt.Println(\"deposit\
+    \ | withdraw | balance | exit\")\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24755#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 28 Mar 2023 15:55:00 UTC"
+record: -1
+submission_language: go

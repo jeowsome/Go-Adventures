@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "<code>c1 := colors[1:4:3]</code>"
+- text: "<code>c2 := colors[:3:6]</code>"
+- text: "<code>c3 := colors[1::6]</code>"
+- text: "<code>c4 := colors[1:2:]</code>"
+- text: "<code>c5 := colors[1:6:6]</code>"
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20414#comment
+status: Solved
+record: -1
+local_check: false

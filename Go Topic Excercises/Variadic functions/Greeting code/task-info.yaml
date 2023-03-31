@@ -1,0 +1,29 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: |-
+    package main
+
+    import "fmt"
+
+    func main() {
+        var prefix, name1, name2 string
+        fmt.Scan(&prefix, &name1, &name2)
+
+        for _, line := range Greeting(prefix, name1, name2) {
+            fmt.Println(line)
+        }
+    }
+
+    func Greeting(prefix ?, name ?) []string {
+        // your code goes here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/21807#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 29 Mar 2023 08:41:56 UTC"
+record: -1
+submission_language: go

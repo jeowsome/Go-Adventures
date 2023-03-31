@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: When we need a method that can modify the value that its receiver points to.
+- text: "When the receiver of our method is a large struct, to avoid copying the value\
+    \ on every method call."
+- text: "When we define methods on non-struct types, we must always use pointer receivers."
+- text: When our method doesn't need to modify the value of the receiver.
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17741#comment
+status: Solved
+record: -1
+local_check: false

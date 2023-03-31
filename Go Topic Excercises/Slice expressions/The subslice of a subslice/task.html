@@ -1,0 +1,11 @@
+<h2>The subslice of a subslice</h2>
+<p></p>
+<p>Suppose you have the slice of strings <code class="language-go">names</code>, and the following subslices <code class="language-go">n1</code> and <code class="language-go">n2</code>:</p>
+<pre><code class="language-go">names := []string{"Keanu", "Brad", "Johnny", "Tom", "Dwayne", "Ryan"}
+n1 := names[0:6]
+n2 := n1[1:5]</code></pre>
+<p>And then you perform the following assignment operations:</p>
+<pre><code class="language-go">n2[0] = "Mark"
+n1[2] = "Liam"
+n2[2] = "Mark"</code></pre>
+<p>What would be the contents of the <code class="language-go">names</code> slice after performing the above operations? Remember that subslices share a common underlying array with their parent slice!</p>

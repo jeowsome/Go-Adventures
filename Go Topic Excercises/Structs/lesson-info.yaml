@@ -1,0 +1,10 @@
+content:
+- Theory
+- Creating a Book structure
+- Comparing similar structs
+- Assigning values to struct fields
+- What is a struct
+- Initializing a struct
+- Initialize a struct with new
+- What does the new function do
+- Printing individual struct fields

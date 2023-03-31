@@ -1,0 +1,18 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: "package main\n\nimport (\n\t\"fmt\"\n\t\"log\"\n\t\"reflect\"\n\t\"strings\"\
+    \n)\n\n// Write the code to concatenate `firstName`, `lastName`,\n// and `domain`\
+    \ into an email address using the strings.Builder\nfunc createEmail(firstName,\
+    \ lastName, domain string) strings.Builder {\n\tvar builder strings.Builder\n\n\
+    \treturn builder\n}\n\n// DO NOT delete or modify the code within the main() function!\n\
+    func main() {\n\tvar firstName, lastName, domain string\n\tfmt.Scanln(&firstName,\
+    \ &lastName, &domain)\n\n\temail := createEmail(firstName, lastName, domain)\n\
+    \tif !isBuilder(email) {\n\t\tlog.Fatal(\"Wrong! the createEmail function must\
+    \ return a strings.Builder type\")\n\t}\n\tfmt.Println(email.String())\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24763#comment
+status: Solved
+record: -1
+submission_language: go

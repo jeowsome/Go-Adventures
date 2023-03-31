@@ -1,12 +1,9 @@
 content:
-- Comments
-- Input Output
-- Control statements
-- Pointers
-- Loops
-- Arrays
-- Slices
-- Working with slices
-- Functions
-- Functional decomposition
-- Packages
+- Slice expressions
+- Operations with strings
+- Advanced Input
+- Structs
+- Methods
+- Variadic functions
+- String builder
+- Parsing data from strings

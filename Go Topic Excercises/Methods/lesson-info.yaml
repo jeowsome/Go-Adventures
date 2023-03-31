@@ -1,0 +1,11 @@
+content:
+- Theory
+- Fixing method declaration
+- What is a method
+- Working with pointer receivers
+- Reasons to use pointer receivers
+- Creating your first method
+- Calling methods
+- Bank account operations
+- Creating a slot machine in Go
+- Creating a stopwatch in Go

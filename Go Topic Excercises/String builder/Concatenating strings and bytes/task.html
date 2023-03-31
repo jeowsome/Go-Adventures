@@ -1,0 +1,9 @@
+<h2>Concatenating strings and bytes</h2>
+<p></p>
+<p>Suppose you have a Go program with the <code class="language-go">builder</code> variable of the <code class="language-go">strings.Builder</code> type, and that you call different write methods to write data to the builder:</p>
+<pre><code class="language-go">var builder strings.Builder
+
+builder.WriteString("ABC")
+builder.Write([]byte{68, 69, 70})
+builder.Write([]byte{'4', '5', '6'})</code></pre>
+<p>What would be the output of <code class="language-go">b</code> if you printed it using <code class="language-go">fmt.Println(b.String())</code>?</p>

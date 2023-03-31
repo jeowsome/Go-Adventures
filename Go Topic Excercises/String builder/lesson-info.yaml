@@ -1,0 +1,9 @@
+content:
+- Theory
+- Concatenating strings and bytes
+- String builder with Unicode characters
+- What is the strings.Builder type
+- Email name for an employee
+- The Grow() method
+- The data writing helpers
+- Creating a custom function — concatBytes

@@ -1,0 +1,43 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: |-
+    package main
+
+    import "fmt"
+
+    func main() {
+        var number int64
+        var digit1, digit2, digit3 int8
+        fmt.Scan(&number, &?, ?, ?)
+
+        fmt.Println(suitableDigits(?))
+    }
+
+    func suitableDigits(number int64, digits ?) []int8 {
+        var included []int8
+        for number > 0 {
+            digit := int8(?)
+            number /= 10
+
+            for i := 0; i < len(digits); i++ {
+                if digit == digits[i] {
+                    digits[i] = -1 // excludes the found digit
+                    included = append(?, ?)
+                    break
+                }
+            }
+        }
+
+        return included
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/21808#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #3 of 10. Wrong answer
+  time: "Wed, 29 Mar 2023 08:50:49 UTC"
+record: -1
+submission_language: go
